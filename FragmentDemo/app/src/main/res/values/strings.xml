@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_home_text">Home</string>
+    <string name="bottom_scanner">Scan</string>
+    <string name="bottom_cart">Cart</string>
+    <string name="bottom_payment">Payment</string>
+</resources>

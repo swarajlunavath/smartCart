@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    tools:context=".MainActivity">
+
+    <!--
+<Button
+    android:id="@+id/bOne"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="#333"
+    android:onClick="fOne"
+    android:text="one"
+    android:textColor="#aaa"
+    android:textSize="26dp"
+    android:textStyle="normal" />
+<Button
+    android:id="@+id/bTwo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_toRightOf="@+id/bOne"
+    android:background="#333"
+    android:onClick="fTwo"
+    android:text="Two"
+    android:textColor="#aaa"
+    android:textSize="26dp"
+    android:textStyle="normal" />
+    <Button
+        android:id="@+id/bThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_toRightOf="@+id/bTwo"
+        android:background="#333"
+        android:text="one"
+        android:textColor="#aaa"
+        android:textSize="26dp"
+        android:textStyle="normal" />
+-->
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/mainBottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:itemTextColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        android:id="@+id/frame"
+        app:layout_constraintBottom_toTopOf="@+id/mainBottomnav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
